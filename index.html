@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <style>
+    .bigbox {
+      width: 50%;
+      height: auto;
+      background-color: aqua;
+      background: linear-gradient(45deg, pink,lightblue);
+      padding: 20px;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+    label {
+      display: block;
+      margin: 5px 0px;
+      text-align: center;
+    }
+
+    input {
+      padding: 5px;
+      width: 80%;
+      border-radius: 1px solid lightgrey;
+    }
+
+    .submitButton {
+      width: 80% !important;
+      display: block;
+      margin: auto;
+      margin-top: 25px;
+    }
+    form{  
+        width: 100%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    
+  </style>
+
+  <body>
+    <div class="bigbox">
+      <form action="">
+        <h2>Login Form</h2>
+
+        <label>First Name</label>
+        <input type="text" placeholder=" Your First Name" />
+
+        <label>Last Name</label>
+        <input type="text" placeholder=" Your Last Name" />
+
+        <label>E-mail</label>
+        <input type="email" placeholder=" Your Email" />
+
+        <label>Password</label>
+        <input type="text" placeholder=" Your password" />
+
+        <input type="submit" value="Log in" class="submitButton" />
+      </form>
+    </div>
+  </body>
+</html>
